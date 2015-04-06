@@ -1,0 +1,51 @@
+body {
+  background-color: #e3f9c0;
+}
+
+/*h1 {
+
+}*/
+
+
+.main-nav {
+  display: flex;
+  justify-content: flex-end;
+  background: #968b8b;
+  color: #f9f5ed;
+  padding: 2.5em;
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+  z-index: 1000;
+
+}
+
+/*.flex {
+  display: flex;
+  flex-flow: row;
+  justify-content: center;
+
+}*/
+
+
+
+.flexcontainer {
+  display: -webkit-flex;
+  display: flex;
+  -webkit-align-items: center;
+  align-items: center;
+  -webkit-justify-content: center;
+  justify-content: center;
+  -webkit-flex-direction: row;
+  flex-direction: row;
+  -webkit-flex-wrap: wrap;
+  flexdirection: row;
+  -webkit-flex-wrap: wrap;
+  flex-wrap: wrap;*/
+  -webkit-align-items: center;
+  align-items: center;*/
+  -webkit-justify-content: center;
+  justify-content: center;
+  margin-top: 17em;*/
+}
