@@ -16,22 +16,19 @@
 }*/
 
 .icon-home-house-streamline {
+  margin-top: 0.5em;
   font-size: 2em;
   display: inline;
-  margin-left: 27em;
   padding: 0.2em 0 0 1.5em;
   float: right;
-  margin-right: 2.5em;
-
 }
 
 .icon-email-mail-streamline {
+  margin-top: 0.5em;
   font-size: 2em;
-  margin-left: 30em;
   display: inline;
   padding: 0.2em 0 0 1.5em;
   float: right;
-  margin-right: 2.5em;
 
 }
 
@@ -75,4 +72,8 @@
   line-height: 1.7em;
   letter-spacing: .02em;
 
+}
+
+ul {
+  float:right;
 }
