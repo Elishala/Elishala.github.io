@@ -1,6 +1,6 @@
-.main-nav {
-  /*display: flex;*/
-  /*justify-content: flex-end;*/
+/*.main-nav {
+  display: flex;
+  justify-content: flex-end;
   background-color: #F4FFFE;
   opacity: 0.8;
   padding-bottom: .9em;
@@ -9,10 +9,20 @@
   left: 0;
   right: 0;
   z-index: 1000;
-  /*font-family: memory-icons;*/
+  font-family: memory-icons;
   -webkit-box-shadow: 0px 2px 5px 0px rgba(214,216,218,1);
   -moz-box-shadow: 0px 2px 5px 0px rgba(214,216,218,1);
   box-shadow: 0px 2px 5px 0px rgba(214,216,218,1);
+}*/
+
+.icon-home-house-streamline {
+  font-size: 2em;
+  display: inline;
+  margin-left: 27em;
+  padding: 0.2em 0 0 1.5em;
+  float: right;
+  margin-right: 2.5em;
+
 }
 
 .icon-email-mail-streamline {
@@ -25,57 +35,44 @@
 
 }
 
-.icon-home-house-streamline {
-  font-size: 2em;
-  display: inline;
-  margin-left: 27em;
-  padding: 0.2em 0 0 1.5em;
-  float: right;
-  margin-right: 2.5em;
-
-}
-
-body {
-  background-color: #EDFEFD;
-}
 
 .pic {
   text-align: left;
-  top: 90px;
-  padding: 90px 15px 90px;
+  /*top: 90px;*/
+  padding-right: 15px;
 
 }
 
 .hero {
   /*position: relative;*/
-  margin-top: 11em;
   color: #72716d;
   font-family: 'Raleway', sans-serif;
   text-align: right;
-  margin-right: 5em;
-  max-width: 39.3em;
-  max-height: 17em;
   float: right;
   padding: 10px 15px;
+  height: 868px;
+  padding-top: 10em;
+  padding-left: 15px;
+  padding-right: 5em;
+  background-color: #EDFEFD;
+
+
+}
+
+.hero-container {
+  background-color: #EDFEFD;
 }
 
 .job-title {
   font-size: 2.5em;
   color: #c4cdce;
-  /*position: relative;*/
-
-  /*text-align: right;
-  margin-right: 5em;*/
 
 }
 
 .name {
   font-size: 3em;
-  /*text-align: right;
-  margin-right: 5em;*/
   text-shadow: -1px -1px $alt-gray-color;
   line-height: 1.7em;
   letter-spacing: .02em;
-  /*position: relative;*/
 
 }
