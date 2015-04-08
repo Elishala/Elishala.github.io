@@ -1,0 +1,79 @@
+/*.main-nav {
+  display: flex;
+  justify-content: flex-end;
+  background-color: #F4FFFE;
+  opacity: 0.8;
+  padding-bottom: .9em;
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+  z-index: 1000;
+  font-family: memory-icons;
+  -webkit-box-shadow: 0px 2px 5px 0px rgba(214,216,218,1);
+  -moz-box-shadow: 0px 2px 5px 0px rgba(214,216,218,1);
+  box-shadow: 0px 2px 5px 0px rgba(214,216,218,1);
+}*/
+
+.icon-home-house-streamline {
+  margin-top: 0.5em;
+  font-size: 2em;
+  display: inline;
+  padding: 0.2em 0 0 1.5em;
+  float: right;
+}
+
+.icon-email-mail-streamline {
+  margin-top: 0.5em;
+  font-size: 2em;
+  display: inline;
+  padding: 0.2em 0 0 1.5em;
+  float: right;
+
+}
+
+
+.pic {
+  text-align: left;
+  /*top: 90px;*/
+  padding-right: 15px;
+
+}
+
+.hero {
+  /*position: relative;*/
+  color: #72716d;
+  font-family: 'Raleway', sans-serif;
+  text-align: right;
+  float: right;
+  padding: 10px 15px;
+  height: 868px;
+  padding-top: 10em;
+  padding-left: 15px;
+  padding-right: 5em;
+  background-color: #EDFEFD;
+
+
+}
+
+.hero-container {
+  background-color: #EDFEFD;
+}
+
+.job-title {
+  font-size: 2.5em;
+  color: #c4cdce;
+
+}
+
+.name {
+  font-size: 3em;
+  text-shadow: -1px -1px $alt-gray-color;
+  line-height: 1.7em;
+  letter-spacing: .02em;
+
+}
+
+ul {
+  float:right;
+}
