@@ -6,22 +6,9 @@
   float: right;
 }*/
 
-.icon-email-mail-streamline, a [href^="mailto:"]:hover:after  {
-  background: url(elishahansen@gmail.com) no-repeat right top;
-  content: " > " attr(title);
-  margin-top: 0.5em;
-  font-size: 2em;
-  display: inline;
-  padding: 0.2em 0 0 1.5em;
-  float: right;
-
-}
-
-
 .pic {
   text-align: left;
   padding-right: 15px;
-
 }
 
 .hero {
@@ -33,6 +20,7 @@
   padding-top: 10em;
   padding-left: 15px;
   padding-right: 5em;
+  background-color: #edfefd;
 
 }
 
@@ -56,38 +44,14 @@ ul {
   float: right;
 }
 
-a {
-  background: url(elishahansen@gmail.com) no-repeat right top;
-}
 
 .icon-email-mail-streamline  {
-  background: url(elishahansen@gmail.com) no-repeat right top;
-  content: " > " attr(title);
+  text-decoration: none;
   margin-top: 0.5em;
   font-size: 2em;
   display: inline;
   padding: 0.2em 0 0 1.5em;
   float: right;
-
-}
-
-.email {
-  background: url(elishahansen@gmail.com) no-repeat right top;
-  content: " > " attr(title);
-  margin-top: 0.5em;
-  font-size: 2em;
-  display: inline;
-  padding: 0.2em 0 0 1.5em;
-  float: right;
-}
-
-.a [href^="mailto:"]:hover:after  {
-  background: url(elishahansen@gmail.com) no-repeat right top;
-  content: " > " attr(title);
-  margin-top: 0.5em;
-  font-size: 2em;
-  display: inline;
-  padding: 0.2em 0 0 1.5em;
-  float: right;
+  color: #72716f;
 
 }
