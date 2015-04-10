@@ -25,23 +25,15 @@
 }
 
 .hero {
-  /*position: relative;*/
-  color: #72716d;
   font-family: 'Raleway', sans-serif;
   text-align: right;
   float: right;
   padding: 10px 15px;
-  height: 868px;
+  height: 700px;
   padding-top: 10em;
-  /*padding-left: 15px;*/
+  padding-left: 15px;
   padding-right: 5em;
-  background-color: #EDFEFD;
 
-
-}
-
-.hero-container {
-  background-color: #EDFEFD;
 }
 
 .job-title {
@@ -52,9 +44,11 @@
 
 .name {
   font-size: 3em;
-  text-shadow: -1px -1px $alt-gray-color;
+  text-shadow: -1px -1px white;
   line-height: 1.7em;
   letter-spacing: .02em;
+  color: #72716d;
+
 
 }
 
@@ -62,6 +56,38 @@ ul {
   float: right;
 }
 
-a [href^="mailto:"] {
-     background: url(elishahansen@gmail.com) no-repeat right top;
+a {
+  background: url(elishahansen@gmail.com) no-repeat right top;
+}
+
+.icon-email-mail-streamline  {
+  background: url(elishahansen@gmail.com) no-repeat right top;
+  content: " > " attr(title);
+  margin-top: 0.5em;
+  font-size: 2em;
+  display: inline;
+  padding: 0.2em 0 0 1.5em;
+  float: right;
+
+}
+
+.email {
+  background: url(elishahansen@gmail.com) no-repeat right top;
+  content: " > " attr(title);
+  margin-top: 0.5em;
+  font-size: 2em;
+  display: inline;
+  padding: 0.2em 0 0 1.5em;
+  float: right;
+}
+
+.a [href^="mailto:"]:hover:after  {
+  background: url(elishahansen@gmail.com) no-repeat right top;
+  content: " > " attr(title);
+  margin-top: 0.5em;
+  font-size: 2em;
+  display: inline;
+  padding: 0.2em 0 0 1.5em;
+  float: right;
+
 }
