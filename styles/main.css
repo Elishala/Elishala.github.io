@@ -1,3 +1,51 @@
+/*for 980px or less*/
+@media screen and (max-width: 980px) {
+  .pg-container {
+    width: 95%;
+  }
+  .pic {
+    width: 30%;
+  }
+  .hero {
+    width: 60%;
+    padding: 3% 4%;
+  }
+  .about-container {
+    width: auto;
+  }
+}
+
+/*for 700px or less*/
+@media screen and (max-width: 700px) {
+  .pic {
+    width: auto;
+    float: none;
+  }
+  .hero {
+    width: auto;
+    float: none;
+  }
+  .about-container {
+    width: auto;
+    float: none;
+  }
+}
+ /*for 480px or less*/
+ @media screen and (max-width: 480px) {
+   .html {
+     -webkit-text-size-adjust: none;
+   }
+   .pic {
+     height: 25%;
+   }
+   .h2 h1 {
+     font-size: 24px;
+   }
+}
+
+
+
+
 /*.icon-home-house-streamline {
   margin-top: 0.5em;
   font-size: 2em;
@@ -17,10 +65,12 @@
   float: right;
   padding: 10px 15px;
   height: 700px;
+  width: 855px;
   padding-top: 10em;
   padding-left: 15px;
   padding-right: 5em;
   background-color: #edfefd;
+  position: auto;
 
 }
 
@@ -37,21 +87,26 @@
   letter-spacing: .02em;
   color: #72716d;
 
-
 }
-
-ul {
-  float: right;
-}
-
 
 .icon-email-mail-streamline  {
   text-decoration: none;
   margin-top: 0.5em;
-  font-size: 2em;
+  font-size: 2.7em;
   display: inline;
-  padding: 0.2em 0 0 1.5em;
+  /*padding: 0.2em 0 0 1.5em;*/
   float: right;
   color: #72716f;
 
+}
+
+.about-container {
+  background-color: #F4484E;
+  position: relative;
+  color: #edfefd;
+  font-size: 1.4em;
+  font-family: 'Raleway', sans-serif;
+  padding: 10px;
+  position: relative;
+  top: 868px;
 }
