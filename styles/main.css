@@ -1,8 +1,8 @@
 /*for 980px or less*/
 @media screen and (max-width: 980px) {
-  .pg-container {
+  /*.pg-container {
     width: 95%;
-  }
+  }*/
   .pic {
     width: 30%;
   }
@@ -39,12 +39,9 @@
      height: 25%;
    }
    .h2 h1 {
-     font-size: 24px;
+     font-size: 16px;
    }
 }
-
-
-
 
 /*.icon-home-house-streamline {
   margin-top: 0.5em;
@@ -54,29 +51,45 @@
   float: right;
 }*/
 
-.pic {
-  text-align: left;
-  padding-right: 15px;
+.flex-container-hero {
+  flex-direction: row;
+  flex-wrap: wrap;
+  display: inline-flex;
+  justify-content: flex-start;
+  align-content: flex-start;
+  align-items: flex-start;
+  /*-webkit-flex-direction: reverse;
+  -moz-flex-direction: reverse;*/
+  /*flex-flow: row wrap;*/
+  /*justify-content: flex-start;*/
+  /*align-items: stretch;
+  align-content: stretch*/
+
 }
 
-.hero {
+.flex-item-hero {
   font-family: 'Raleway', sans-serif;
-  text-align: right;
-  float: right;
+  /*text-align: right;*/
   padding: 10px 15px;
   height: 700px;
-  width: 855px;
+  width: 100%;
   padding-top: 10em;
-  padding-left: 15px;
+  padding-left: 415px;
   padding-right: 5em;
   background-color: #edfefd;
-  position: auto;
+  display: flex;
+  /*flex-flow: row wrap;
+  justify-content: flex-start;
+  align-items: stretch;
+  align-content: stretch;*/
 
 }
 
 .job-title {
   font-size: 2.5em;
   color: #c4cdce;
+  text-align: right;
+
 
 }
 
@@ -93,20 +106,115 @@
   text-decoration: none;
   margin-top: 0.5em;
   font-size: 2.7em;
-  display: inline;
+  /*display: inline;*/
   /*padding: 0.2em 0 0 1.5em;*/
-  float: right;
+  /*float: right;*/
   color: #72716f;
 
 }
 
-.about-container {
+.pic {
+  padding-right: 75px;
+  max-width: 100%;
+  height: auto;
+  /*text-align: left;
+  display: inline*/
+
+}
+
+
+/*.about-container {
   background-color: #F4484E;
   position: relative;
-  color: #edfefd;
-  font-size: 1.4em;
-  font-family: 'Raleway', sans-serif;
   padding: 10px;
-  position: relative;
   top: 868px;
+
+}*/
+
+.flex-container {
+	display: flex;
+	flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-content: center;
+  align-items: center;
+  position: relative;
+  /*top: 868px;*/
+
+}
+
+.flex-item-1 {
+  display: flex;
+  flex-grow: 5;
+  flex-shrink: 1;
+  justify-content: center;
+  alig-items: center;
+  width: 611px;
+  height: 250px;
+  flex-basis: 500px;
+  background-color: #F4484E;
+  font-family: 'Raleway', sans-serif;
+  border-radius: 5px;
+  text-align: center;
+  padding-top: 24px;
+  padding-bottom: 24px;
+  padding-right: 24px;
+  padding-left: 24px;
+  position: relative;
+
+}
+
+.flex-item-2 {
+  display: flex;
+  flex-grow: 4;
+  flex-shrink: 1;
+  width: 611px;
+  height: 250px;
+  flex-basis: 600px;
+  background-color: #C4CDCE;
+  font-family: 'Raleway', sans-serif;
+  border-radius: 5px;
+  padding-top: 24px;
+  padding-bottom: 24px;
+  padding-right: 24px;
+  padding-left: 24px;
+  position: relative;
+
+
+}
+
+.flex-item-3 {
+  flex-grow: 3;
+  flex-shrink: 1;
+  width: 811px;
+  height: 250px;
+  flex-basis: 200px;
+  background-color: #FFFAAC;
+  font-family: 'Raleway', sans-serif;
+  border-radius: 5px;
+  padding-top: 24px;
+  padding-bottom: 24px;
+  padding-right: 24px;
+  padding-left: 24px;
+  position: relative;
+
+
+}
+
+.flex-item-4 {
+  flex-grow: 5;
+  flex-shrink: 1;
+  width: 611px;
+  height: 250px;
+  flex-basis: 200px;
+  background-color: #CCF182;
+  font-family: 'Raleway', sans-serif;
+  border-radius: 5px;
+  padding-top: 24px;
+  padding-bottom: 24px;
+  padding-right: 24px;
+  padding-left: 24px;
+  position: relative;
+
+
 }
