@@ -124,7 +124,7 @@
   height: 250px;
   flex-basis: 500px;
   background-color: #FFFAAC;
-  font-family: 'Raleway', sans-serif;
+  font-family: 'Lora', serif;
   border-radius: 5px;
   text-align: center;
   padding-top: 24px;
@@ -133,6 +133,10 @@
   padding-left: 24px;
   position: relative;
   margin: 2.2em;
+  line-height: 1.4em;
+  font-size: 19px;
+  color:  #2E2E2E;
+  text-align: left;
 }
 
 .flex-item-2 {
