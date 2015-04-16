@@ -109,7 +109,9 @@
   align-content: center;
   align-items: center;
   position: relative;
-  background-color:  #C4CDCE;
+  /*background-color:  #C4CDCE;*/
+  background-color: #edfefd;
+
   padding: 2.8em;
   /*top: 868px;*/
 
