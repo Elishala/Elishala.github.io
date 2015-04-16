@@ -74,7 +74,7 @@
 
 .name {
   font-size: 3em;
-  text-shadow: -3px -3px #FFFAE2;
+  text-shadow: -3px -3px white;
   line-height: 1.7em;
   letter-spacing: .02em;
   color: #72716d;
@@ -102,6 +102,7 @@
 
 .flex-container {
 	display: flex;
+  display: -webkit-flex;
 	flex-direction: row;
   flex-wrap: wrap;
   justify-content: center;
@@ -114,15 +115,17 @@
 
 }
 
+
 .flex-item-1 {
   display: flex;
+  display: -webkit-flex;
   flex-grow: 5;
-  flex-shrink: 1;
+  flex-shrink: 0;
   justify-content: center;
   align-items: center;
   width: 511px;
-  height: 250px;
-  flex-basis: 500px;
+  height: 289px;
+  flex-basis: auto;
   background-color: #FFFAAC;
   font-family: 'Lora', serif;
   border-radius: 5px;
@@ -135,19 +138,21 @@
   margin: 2.2em;
   line-height: 1.4em;
   font-size: 19px;
-  color:  #2E2E2E;
+  color: #595856;
   text-align: left;
+  box-shadow: -3px -3px white;
+
 }
 
 .flex-item-2 {
   display: flex;
-  flex-grow: 4;
-  flex-shrink: 1;
-  width: 611px;
-  height: 250px;
-  flex-basis: 600px;
+  display: -webkit-flex;
+  flex-grow: 5;
+  flex-shrink: 0;
+  width: 311px;
+  height: 289px;
+  flex-basis: auto;
   background-color: #D2FDFF;
-  font-family: 'Raleway', sans-serif;
   border-radius: 5px;
   padding-top: 24px;
   padding-bottom: 24px;
@@ -155,31 +160,45 @@
   padding-left: 24px;
   position: relative;
   margin: 2.2em;
-
+  font-family: 'Lora', serif;
+  text-align: center;
+  line-height: 1.4em;
+  font-size: 19px;
+  color:  #595856;
+  text-align: left;
+  box-shadow: -3px -3px white;
 
 }
 
 .flex-item-3 {
-  flex-grow: 3;
-  flex-shrink: 1;
-  width: 811px;
-  height: 250px;
-  flex-basis: 200px;
+  display: flex;
+  display: -webkit-flex;
+  flex-grow: 5;
+  flex-shrink: 0;
+  flex-basis: auto;
+  width: 427px;
+  height: 289px;
   background-color: #F4484E;
-  font-family: 'Raleway', sans-serif;
   border-radius: 5px;
-  padding-top: 24px;
-  padding-bottom: 24px;
+  padding-top: 34px;
+  padding-bottom: 34px;
   padding-right: 24px;
   padding-left: 24px;
   position: relative;
   margin: 2.2em;
-
+  font-family: 'Lora', serif;
+  text-align: center;
+  line-height: 1.4em;
+  font-size: 19px;
+  color: white;
+  text-align: left;
+  box-shadow: -3px -3px white;
 
 }
 
 .flex-item-4 {
-  flex-grow: 5;
+  display: flex;
+  display: -webkit-flex;flex-grow: 5;
   flex-shrink: 1;
   width: 611px;
   height: 250px;
