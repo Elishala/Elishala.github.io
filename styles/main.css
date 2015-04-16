@@ -101,19 +101,17 @@
 }
 
 .flex-container {
-	display: flex;
   display: -webkit-flex;
+	display: flex;
+  -webkit-flex-direction: row;
 	flex-direction: row;
-  flex-wrap: wrap;
-  justify-content: center;
-  align-content: center;
+  -webkit-align-items: center;
   align-items: center;
-  position: relative;
-  /*background-color:  #C4CDCE;*/
-  background-color: #edfefd;
-
+  -webkit-justify-content: center;
+  justify-content: center;
+  flex-wrap: wrap;
+  background-color: #dae4e5;
   padding: 2.8em;
-  /*top: 868px;*/
 
 }
 
@@ -128,7 +126,8 @@
   width: 511px;
   height: 289px;
   flex-basis: auto;
-  background-color: #FFFAAC;
+  /*background-color: #FFFAAC;*/
+  background-color: #edfefd;
   font-family: 'Lora', serif;
   border-radius: 5px;
   text-align: center;
@@ -154,7 +153,9 @@
   width: 311px;
   height: 289px;
   flex-basis: auto;
-  background-color: #D2FDFF;
+  /*background-color: #D2FDFF;*/
+  /*background-color: #edfefd;*/
+  background-color: #d2f7f4;
   border-radius: 5px;
   padding-top: 24px;
   padding-bottom: 24px;
@@ -180,7 +181,9 @@
   flex-basis: auto;
   width: 427px;
   height: 289px;
-  background-color: #F4484E;
+  /*background-color: #F4484E;*/
+  /*background-color: #edfefd;*/
+  background-color: #9ee2de;
   border-radius: 5px;
   padding-top: 34px;
   padding-bottom: 34px;
@@ -192,7 +195,9 @@
   text-align: center;
   line-height: 1.4em;
   font-size: 19px;
-  color: white;
+  /*color: white;*/
+  color:  #595856;
+
   text-align: left;
   box-shadow: -3px -3px white;
 
@@ -204,16 +209,18 @@
   flex-grow: 5;
   flex-shrink: 0;
   flex-basis: auto;
-  width: 511px;
+  width: 279px;
   height: 289px;
-  background-color: #CCF182;
+  /*background-color: #CCF182;*/
+  /*background-color: #edfefd;*/
+  background-color:#d2f2ef;
   border-radius: 5px;
   padding-top: 34px;
-  padding-bottom: 34px;
+  padding-bottom: 14px;
   padding-right: 24px;
   padding-left: 24px;
-  position: relative;
-  margin: 2.2em;
+  /*position: relative;*/
+  /*margin: 2.2em;*/
   font-family: 'Lora', serif;
   text-align: center;
   line-height: 1.4em;
