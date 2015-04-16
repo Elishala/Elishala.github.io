@@ -198,13 +198,13 @@
 
 .flex-item-4 {
   display: flex;
-  display: -webkit-flex;flex-grow: 5;
-  flex-shrink: 1;
-  width: 611px;
-  height: 250px;
+  display: -webkit-flex;
+  flex-grow: 5;
+  flex-shrink: 0;
   flex-basis: 200px;
+  width: 611px;
+  height: 289px;
   background-color: #CCF182;
-  font-family: 'Raleway', sans-serif;
   border-radius: 5px;
   padding-top: 24px;
   padding-bottom: 24px;
@@ -212,6 +212,12 @@
   padding-left: 24px;
   position: relative;
   margin: 2.2em;
-
+  font-family: 'Lora', serif;
+  text-align: center;
+  line-height: 1.4em;
+  font-size: 19px;
+  color:  #595856;
+  text-align: left;
+  box-shadow: -3px -3px white;
 
 }
