@@ -48,7 +48,8 @@
   width: 100%;
 }
 
-.hero {
+.grid-hero {
+  disply: flex;
   font-family: 'Raleway', sans-serif;
   text-align: right;
   padding: 10px 15px;
@@ -59,20 +60,18 @@
 
 }
 
-/*.dets {
-  position: fixed;
-  text-align: right;
+.grid-dets {
+  flex: 1;
+}
 
-}*/
-
-.job-title {
+.grid-job-title {
   font-size: 2.5em;
   color: #c4cdce;
   text-align: right;
 
 }
 
-.name {
+.grid-name {
   font-size: 3em;
   text-shadow: -3px -3px white;
   line-height: 1.7em;
@@ -93,7 +92,7 @@
 
 }
 
-.pic {
+.grid-pic {
   padding-right: 75px;
   max-width: 100%;
   height: auto;
