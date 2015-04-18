@@ -1,6 +1,8 @@
 .my-img {
-  position: absolute;
+  position: relative;
   border-top: 2px solid #c4cdce;
   border-right: 2px solid #c4cdce;
   border-bottom: 2px solid #c4cdce;
+  border-left: 2px solid #c4cdce;
+
 }
