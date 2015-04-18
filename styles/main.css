@@ -59,21 +59,17 @@
 
 .icon-angle-down {
   text-decoration: none;
-  text-align: center;
   font-size: 3.7em;
   color: #72716f;
-  /*padding: 10em 3.8em 1em 1.5em;*/
-  margin-top: 10em;
-  position: absolute;
+  padding: .9em;
+  margin-top: 3.3em;
+  position: fixed;
 }
 
 .pic {
   /*padding-right: 75px;*/
   /*max-width: 100%;*/
   /*height: auto;*/
-  margin-left: 5em;
-  position: absolute;
-
 }
 
 
@@ -88,9 +84,8 @@
   flex-wrap: row wrap;
   -webkit-align-content: center;
   align-content: center;
-  /*background-color: #cbdadb;*/
   background-color: #edf2f1;
-  padding: 1.7em;
+  padding: 1.3em;
 
 }
 
@@ -113,7 +108,7 @@
   padding-right: 24px;
   padding-left: 24px;
   position: relative;
-  /*margin: 2.2em;*/
+  margin: 1.7em;
   line-height: 1.4em;
   font-size: 19px;
   color: #595856;
@@ -130,7 +125,6 @@
   flex-basis: auto;
   width: 25%;
   height: 100%;
-  /*background-color: #d2f7f4;*/
   background-color: #d9fbfc;
   border-radius: 5px;
   padding-top: 24px;
@@ -157,9 +151,7 @@
   flex-basis: auto;
   width: 25%;
   height: 100%;
-  /*background-color: #bbe8e4;*/
   background-color: #E1FEE1;
-
   border-radius: 5px;
   padding-top: 24px;
   padding-bottom: 24px;
