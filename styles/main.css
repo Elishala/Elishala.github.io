@@ -9,8 +9,8 @@
   font-family: 'Raleway', sans-serif;
   text-align: right;
   padding: 10px 15px;
-  height: 700px;
-  padding-top: 10em;
+  height: 650px;
+  padding-top: 13em;
   padding-right: 5em;
   background-color: #edfefd;
 
@@ -62,13 +62,15 @@
   text-align: center;
   font-size: 3.7em;
   color: #72716f;
-  padding: 10em 3.8em 1em 1.5em;
+  /*padding: 10em 3.8em 1em 1.5em;*/
+  margin-top: 10em;
+  position: absolute;
 }
 
 .pic {
   /*padding-right: 75px;*/
   /*max-width: 100%;*/
-  height: auto;
+  /*height: auto;*/
   margin-left: 5em;
   position: absolute;
 
@@ -86,9 +88,9 @@
   flex-wrap: row wrap;
   -webkit-align-content: center;
   align-content: center;
-  /*background-color: #dae4e5;*/
-  background-color: #cbdadb;
-  padding: 2.8em;
+  /*background-color: #cbdadb;*/
+  background-color: #edf2f1;
+  padding: 1.7em;
 
 }
 
@@ -111,7 +113,7 @@
   padding-right: 24px;
   padding-left: 24px;
   position: relative;
-  margin: 2.2em;
+  /*margin: 2.2em;*/
   line-height: 1.4em;
   font-size: 19px;
   color: #595856;
@@ -128,7 +130,8 @@
   flex-basis: auto;
   width: 25%;
   height: 100%;
-  background-color: #d2f7f4;
+  /*background-color: #d2f7f4;*/
+  background-color: #d9fbfc;
   border-radius: 5px;
   padding-top: 24px;
   padding-bottom: 24px;
@@ -154,7 +157,9 @@
   flex-basis: auto;
   width: 25%;
   height: 100%;
-  background-color: #bbe8e4;
+  /*background-color: #bbe8e4;*/
+  background-color: #E1FEE1;
+
   border-radius: 5px;
   padding-top: 24px;
   padding-bottom: 24px;
@@ -180,7 +185,7 @@
   flex-basis: auto;
   width: 25%;
   height: 100%;
-  background-color: #edfefd;
+  background-color: #dbefff;
   border-radius: 5px;
   padding-top: 24px;
   padding-bottom: 10px;
