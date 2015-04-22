@@ -48,6 +48,10 @@
 
 }
 
+.icon-email-mail-streamline:hover {
+  color: #F82D39;
+}
+
 .icon-book-read-streamline {
   text-decoration: none;
   margin-top: 0.5em;
@@ -57,6 +61,10 @@
   color: #72716f;
 }
 
+.icon-book-read-streamline:hover {
+  color: #F82D39;
+}
+
 .icon-angle-down {
   text-decoration: none;
   font-size: 3.7em;
@@ -64,6 +72,10 @@
   padding: .9em;
   margin-top: 2.7em;
   position: fixed;
+}
+
+.icon-angle-down:hover {
+  color: #F82D39;
 }
 
 .flex-container {
@@ -79,7 +91,7 @@
   align-content: center;
   /*background-color: #edf2f1;*/
   background-color: #c4cdce;
-
+  background-color: white;
   padding: 1.3em;
 
 }
@@ -94,7 +106,7 @@
   align-items: center;
   width: 50%;
   height: 100%;
-  background-color: #edfefd;
+  /*background-color: #edfefd;*/
   font-family: 'Lora', serif;
   border-radius: 5px;
   text-align: center;
@@ -108,8 +120,8 @@
   font-size: 19px;
   color: #595856;
   text-align: left;
-  box-shadow: -1px -1px 1px 1px  white;
-
+  box-shadow: 1px 1px 1px 1px #72716f;
+  background-color: white;
 }
 
 .flex-item-2 {
@@ -120,7 +132,8 @@
   flex-basis: auto;
   width: 50%;
   height: 100%;
-  background-color: #defbfc;
+  /*background-color: #defbfc;*/
+  background-color: white;
   border-radius: 5px;
   padding-top: 24px;
   padding-bottom: 24px;
@@ -134,7 +147,7 @@
   font-size: 19px;
   color:  #595856;
   text-align: left;
-  box-shadow: -1px -1px 1px 1px  white;
+  box-shadow: 1px 1px 1px 1px  #72716f;
 
 }
 
@@ -146,7 +159,8 @@
   flex-basis: auto;
   width: 50%;
   height: 100%;
-  background-color: #edfcf1;
+  /*background-color: #edfcf1;*/
+  background-color: white;
   border-radius: 5px;
   padding-top: 24px;
   padding-bottom: 24px;
@@ -160,7 +174,7 @@
   font-size: 19px;
   color:  #595856;
   text-align: left;
-  box-shadow: -1px -1px 1px 1px  white;
+  box-shadow: 1px 1px 1px 1px  #72716f;
 
 }
 
@@ -172,7 +186,8 @@
   flex-basis: auto;
   width: 50%;
   height: 100%;
-  background-color: #EDFEFD;
+  /*background-color: #EDFEFD;*/
+  background-color: white;
   border-radius: 5px;
   padding-top: 24px;
   padding-bottom: 10px;
@@ -186,20 +201,56 @@
   font-size: 19px;
   color:  #595856;
   text-align: left;
-  box-shadow: -1px -1px 1px 1px white;
+  box-shadow: 1px 1px 1px 1px #72716f;
 
 }
 
 footer {
   disply: flex;
   flex-direction: column;
-  min-height: 15em;
+  min-height: 7.9em;
   background-color: #edfefd;
-
+  text-align: center;
 
 }
+
+.ig-b- {
+  display: inline-block;
+  margin-top: 5.5em;
+  font-size: 2.7em;
+
+}
+.ig-b- img {
+  visibility: hidden;
+}
+.ig-b-:hover {
+  background-position: 0 -60px;
+}
+.ig-b-:active {
+  background-position: 0 -120px;
+}
+.ig-b-32 {
+  width: 32px;
+  height: 32px;
+  background: url(//badges.instagram.com/static/images/ig-badge-sprite-32.png) no-repeat 0 0;
+}
+@media only screen and (-webkit-min-device-pixel-ratio: 2), only screen and (min--moz-device-pixel-ratio: 2), only screen and (-o-min-device-pixel-ratio: 2 / 1), only screen and (min-device-pixel-ratio: 2), only screen and (min-resolution: 192dpi), only screen and (min-resolution: 2dppx) {
+.ig-b-32 {
+  background-image: url(//badges.instagram.com/static/images/ig-badge-sprite-32@2x.png); background-size: 60px 178px;
+} }
+
+.icon-linkedin-square {
+  display: inline-block;
+  margin-top: 5.5em;
+  text-decoration: none;
+  font-size: 2.3em;
+  padding: 0.2em 0 0 1.5em;
+  color: #72716f;
+}
+
+
+
 
 /*
 class="icon-fontawesome-webfont"
 class="icon-instagram"
-class="icon-linkedin-square"*/

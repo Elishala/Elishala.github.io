@@ -7,3 +7,7 @@
   position: fixed;
   height: 711px;
 }
+
+.my-img:hover {
+  opacity: .9;
+}
