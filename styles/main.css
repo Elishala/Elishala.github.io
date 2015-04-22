@@ -90,7 +90,7 @@
   -webkit-align-content: center;
   align-content: center;
   /*background-color: #edf2f1;*/
-  background-color: #c4cdce;
+  /*background-color: #c4cdce;*/
   background-color: white;
   padding: 1.3em;
 
@@ -106,7 +106,6 @@
   align-items: center;
   width: 50%;
   height: 100%;
-  /*background-color: #edfefd;*/
   font-family: 'Lora', serif;
   border-radius: 5px;
   text-align: center;
@@ -120,7 +119,7 @@
   font-size: 19px;
   color: #595856;
   text-align: left;
-  box-shadow: 1px 1px 1px 1px #72716f;
+  box-shadow: 1px 1px 1px 1px #c4cdce;
   background-color: white;
 }
 
@@ -132,7 +131,6 @@
   flex-basis: auto;
   width: 50%;
   height: 100%;
-  /*background-color: #defbfc;*/
   background-color: white;
   border-radius: 5px;
   padding-top: 24px;
@@ -147,7 +145,7 @@
   font-size: 19px;
   color:  #595856;
   text-align: left;
-  box-shadow: 1px 1px 1px 1px  #72716f;
+  box-shadow: 1px 1px 1px 1px  #c4cdce;
 
 }
 
@@ -159,7 +157,6 @@
   flex-basis: auto;
   width: 50%;
   height: 100%;
-  /*background-color: #edfcf1;*/
   background-color: white;
   border-radius: 5px;
   padding-top: 24px;
@@ -174,7 +171,7 @@
   font-size: 19px;
   color:  #595856;
   text-align: left;
-  box-shadow: 1px 1px 1px 1px  #72716f;
+  box-shadow: 1px 1px 1px 1px  #c4cdce;
 
 }
 
@@ -186,7 +183,6 @@
   flex-basis: auto;
   width: 50%;
   height: 100%;
-  /*background-color: #EDFEFD;*/
   background-color: white;
   border-radius: 5px;
   padding-top: 24px;
@@ -201,7 +197,7 @@
   font-size: 19px;
   color:  #595856;
   text-align: left;
-  box-shadow: 1px 1px 1px 1px #72716f;
+  box-shadow: 1px 1px 1px 1px #c4cdce;
 
 }
 
