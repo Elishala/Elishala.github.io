@@ -16,8 +16,9 @@ nav {
   /*margin: 0 auto;*/
   flex: 0 1 auto;
   justify-content: flex-end;
-  background-color: red;
-
+  background-color: #E8DACA;
+  position: fixed;
+  opacity: .5;
 }
 
 nav a {
@@ -114,8 +115,6 @@ nav a {
   flex-wrap: column;
   -webkit-align-content: center;
   align-content: center;
-  /*background-color: #edf2f1;*/
-  /*background-color: #c4cdce;*/
   background-color: white;
   padding: 1.3em;
 

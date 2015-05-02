@@ -1,13 +1,10 @@
-.my-img {
-  border-top: 2px solid #c4cdce;
-  border-right: 2px solid #c4cdce;
-  border-bottom: 2px solid #c4cdce;
-  border-left: 2px solid #c4cdce;
-  margin-left: 5em;
-  position: fixed;
-  height: 711px;
-}
+.hero-pic {
+  background-image: url("http://s1297.photobucket.com/user/elishalahansen/media/sunset_zpsfiyzynpd.jpg") no-repeat center center fixed;
+  background-size: cover;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  max-height: 100%;
+  max-width: 100%;
 
-.my-img:hover {
-  opacity: .9;
 }
