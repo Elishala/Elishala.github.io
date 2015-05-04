@@ -53,9 +53,29 @@ nav a {
   color: #F82D39;
 }
 
-.grid-hero-container {
-  /*display: flex;*/
-  /*flex: 1;*/
+.grid-hero-container-img {
+  /*flex: 0 0 100%;*/
+  /*display: flex;
+  flex: 0 0 100%;
+  /*margin-left: 3em;*/
+  /*width: 100%;*/
+  /*background: url("http://i1297.photobucket.com/albums/ag36/elishalahansen/working_zpsunwtfcf7.jpg") fixed;*/
+  /*background-size: cover;*/
+}
+
+.bkgnd-img {
+  /*position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  margin: auto;*/
+  /*width: 200%:
+  height: 200%;
+  background: url("http://i1297.photobucket.com/albums/ag36/elishalahansen/working_zpsunwtfcf7.jpg") no-repeat center center fixed;
+  background-size: cover;
+  min-width: 100%;
+  min-height: 100%;*/
 }
 
 .grid-hero {
@@ -78,7 +98,7 @@ nav a {
   font-size: 2.5em;
   color: #c4cdce;
   text-align: right;
-
+  /*position: absolute;*/
 }
 
 .grid-name {
