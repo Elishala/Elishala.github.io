@@ -15,17 +15,19 @@
   <body>
 
       <nav>
-        <a class="icon-book-read-streamline" href="#about"></a></li>
-        <a class="icon-email-mail-streamline" href="mailto:elishalahansen@gmail.com?subject=Let's%20talk"></a></li>
+        <a class="icon-book-read-streamline" title="more about me ..." href="#about"></a></li>
+        <a class="icon-email-mail-streamline" title="click here to email me or find me at: elishalahansen@gmail.com"
+                  href="mailto:elishalahansen@gmail.com?subject=Let's%20talk"></a></li>
       </nav>
 
           <div class="grid-hero-container-img">
 
             <div class="bkgnd-img">
               <div class="auto-text-box">
-               <span class="element">Hi. My name is Elisha.<br>
-               This is my website &amp; I'm super excited <br> to be building it! Please note :<br>
-               it's lovingly under construction . . .</span>
+               <span class="element">
+                Hi. My name is Elisha.<br>
+                This is my website &amp; I'm super excited <br> to be building it! Please note :<br>
+                it's lovingly under construction . . .</span>
              </div>
                <img class="my-img" src="images/working.JPG"/>
             </div>
@@ -98,7 +100,7 @@
           $(function(){
             $(".element").typed({
               strings: ["Hi.", "My name is Elisha."],
-              contentType: 'html'
+              typeSpeed: 4
             });
           });
           </script>
