@@ -71,7 +71,17 @@ nav a {
   font-size: 1.5em;
   color: white;
   line-height: 1.4em;
+  /*max-width: 75%;*/
 }
+
+/*.skew-text {
+  background: red;
+  min-height: 15em;
+  min-width: 5em;
+  perspective: 1000px;
+  margin: 0 4em;
+  transform: perspective(25em) rotateX(-30deg);
+}*/
 
 .typed-cursor {
   opacity: 1;
@@ -320,7 +330,7 @@ footer {
 
 .ig-b- {
   display: inline-block;
-  margin-top: 5.5em;
+  margin-top: 2.5em;
   font-size: 2.7em;
   /*color: #72716f;*/
 
@@ -346,7 +356,7 @@ footer {
 
 .icon-linkedin-square {
   display: inline-block;
-  margin-top: 5.5em;
+  margin-top: 2.5em;
   text-decoration: none;
   font-size: 2.3em;
   padding: 0.2em 0 0 1.5em;
