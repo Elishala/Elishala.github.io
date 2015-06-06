@@ -299,6 +299,14 @@ nav a {
   color: #595856;
 }
 
+.to-sites {
+  color: #B1D25D;
+  text-decoration: none;
+}
+
+.to-sites:hover {
+  color: #A7ABAC;
+}
 /*footer {
   disply: flex;
   flex-direction: column;
