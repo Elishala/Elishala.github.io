@@ -1,6 +1,11 @@
-@media screen and (min-width: 0px) and (max-width: 640px) {
-  nav {
+/*@media only screen and (min-width: 0px) and (max-width: 640px) {*/
+@media all and (min-width: 0px) and (max-width: 1640px) {
+
+  nav .my-img .auto-text-box .element .typed-cursor{
     -webkit-flex-flow: column;
+      /*background-image: url("http://i1297.photobucket.com/albums/ag36/elishalahansen/working_zpsunwtfcf7.jpg");*/
+      background-image: url("images/background-photo-mobile-devices.jpg");
+
   }
 }
 
@@ -33,6 +38,7 @@ nav a {
 .icon-book-read-streamline {
   text-decoration: none;
   margin-top: 0.3em;
+  /*equals 29px*/
   font-size: 2.9em;
   /*float: right;*/
   color: #72716f;
