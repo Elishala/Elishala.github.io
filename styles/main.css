@@ -97,22 +97,23 @@ nav a {
 
 .grid-auto-text-box {
   flex: 0 1 auto;
-  /*position: absolute;*/
-  position: relative;
+  position: absolute;
   text-align: center;
+  z-index: 4;
   /*padding-top: 1%;*/
-
+  padding: 170px 29%;
   /*padding: 10em 3em 3em 27em;*/
 }
 
 .element {
   position: relative;
   text-align: right;
-  z-index: 100;
+  /*z-index: 100;*/
+  z-index: 1;
   font-family: 'Raleway', sans-serif;
   font-size: 1.5em;
   color: white;
-  color: green;
+  /*color: green;*/
   line-height: 1.4em;
   letter-spacing: 0.2em;
   /*max-width: 75%;*/
