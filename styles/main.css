@@ -97,8 +97,12 @@ nav a {
 
 .grid-auto-text-box {
   flex: 0 1 auto;
-  position: absolute;
-  padding: 10em 3em 3em 27em;
+  /*position: absolute;*/
+  position: relative;
+  text-align: center;
+  /*padding-top: 1%;*/
+
+  /*padding: 10em 3em 3em 27em;*/
 }
 
 .element {
@@ -108,6 +112,7 @@ nav a {
   font-family: 'Raleway', sans-serif;
   font-size: 1.5em;
   color: white;
+  color: green;
   line-height: 1.4em;
   letter-spacing: 0.2em;
   /*max-width: 75%;*/
@@ -116,6 +121,9 @@ nav a {
   perspective: 1000px;
   margin: 4em 0em;
   transform: perspective(25em) rotateX(-30deg);
+  /*display: flex;
+  flex: 0 1 auto;*/
+
 }
 
 
@@ -155,9 +163,9 @@ nav a {
   display: flex;
   font-family: 'Raleway', sans-serif;
   text-align: left;
-  padding: 4%;
+  padding: 5%;
   height: 155px;
-  padding-top: 1.3em;
+  padding-top: 1.1em;
   /*padding-right: 5em;*/
   background-color: #edfefd;
   background-color: #A7ABAC;
@@ -165,10 +173,13 @@ nav a {
 
 .grid-dets {
   flex: 1;
+  /*padding: 1%;*/
+
 }
 
 .grid-job-title {
-  font-size: 2.9em;
+  /*font-size: 2.9em;*/
+  font-size: 4vw;
   color: #c4cdce;
   color: white;
   text-align: left;
@@ -176,7 +187,8 @@ nav a {
 }
 
 .grid-name {
-  font-size: 3.7em;
+  /*font-size: 3.7em;*/
+  font-size: 5vw;
   text-shadow: -1px -1px #72716d;
   line-height: 1.7em;
   letter-spacing: .02em;
