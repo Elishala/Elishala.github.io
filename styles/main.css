@@ -93,10 +93,10 @@ nav a {
 
 .grid-hero-container-img {
   flex: 0 0 100%;
-
 }
 
-.auto-text-box {
+.grid-auto-text-box {
+  flex: 0 1 auto;
   position: absolute;
   padding: 10em 3em 3em 27em;
 }
