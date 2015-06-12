@@ -15,9 +15,9 @@
     min-height: 100%;*/
     /*margin-top: 4.2em;*/
 }
-//this works, and the lessontree screenshot is fixed again
 
-@media only screen and (max-device-width: 480px) {
+//this actually worked on phone but still not perfect
+/*@media only screen and (max-device-width: 480px) {
  td[class="headercell"] {
    background-image: url(images/working-325.JPG);
    width: 325px !important;
@@ -26,13 +26,13 @@
  td[cladd="headercell"] img {
    display: none;
  }
- }
+ }*/
 
 
 
 
 //this works, and the lessontree screenshot is fixed again
-/*.my-img {
+.my-img {
     -webkit-background-size: cover;
     -moz-background-size: cover;
     -o-background-size: cover;
@@ -45,8 +45,8 @@
     max-width:100%;
     min-width: 100%;
     min-height: 100%;*/
-    /*margin-top: 4.2em;*/
-/*}*/
+    /*margin-top: 4.2em;
+}
 
 /*.lessonTree-screenshot {
    position: absolute;
