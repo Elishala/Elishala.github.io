@@ -43,6 +43,8 @@ nav a {
   /*float: right;*/
   color: #72716f;
   margin-right: 0.3em;
+  margin-left: 0.1em;
+
 }
 
 .icon-book-read-streamline:hover {
