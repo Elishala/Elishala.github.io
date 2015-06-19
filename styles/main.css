@@ -1,10 +1,10 @@
 /*@media only screen and (min-width: 0px) and (max-width: 640px) {*/
 @media all and (min-width: 0px) and (max-width: 1640px) {
 
-  nav .my-img .auto-text-box .element .typed-cursor{
+  nav .auto-text-box .element .typed-cursor{
     -webkit-flex-flow: column;
+      /*background-image: url("images/background-photo-mobile-devices.jpg");*/
       /*background-image: url("http://i1297.photobucket.com/albums/ag36/elishalahansen/working_zpsunwtfcf7.jpg");*/
-      background-image: url("images/background-photo-mobile-devices.jpg");
 
   }
 }
@@ -12,6 +12,7 @@
 *, *:before, *:after {
   box-sizing: border-box;
 }
+
 
 nav {
   display: -webkit-box;
@@ -102,15 +103,18 @@ nav a {
   position: absolute;
   text-align: center;
   z-index: 4;
-  /*padding-top: 1%;*/
+  padding-top: 1%;
+  padding-left: 1%;
   padding: 170px 29%;
   /*padding: 10em 3em 3em 27em;*/
 }
-
+/*using display/flex throw cursor further down the screen*/
 .element {
+  /*display: flex;
+  flex: 0 1 auto;*/
   position: relative;
   text-align: right;
-  /*z-index: 100;*/
+  z-index: 100;
   z-index: 1;
   font-family: 'Raleway', sans-serif;
   font-size: 1.5em;
@@ -122,21 +126,22 @@ nav a {
   min-height: 15em;
   min-width: 5em;
   perspective: 1000px;
-  margin: 4em 0em;
+  margin: 1em 1em;
   transform: perspective(25em) rotateX(-30deg);
-  /*display: flex;
-  flex: 0 1 auto;*/
 
 }
 
-
 .typed-cursor {
+  /*display: flex;
+  flex: 0 1 auto;*/
   opacity: 1;
   -webkit-animation: blink 0.7s infinite;
   -moz-animation: blink 0.7s infinite;
   animation: blink 1.4s 1.4s infinite;
   color: white;
+  /*color: green;*/
   font-size: 1.5em;
+
 }
 
 @keyframes blink {
@@ -161,36 +166,39 @@ nav a {
   position: absolute;
 
 }*/
-
 .grid-hero {
   display: flex;
   font-family: 'Raleway', sans-serif;
   text-align: left;
-  padding: 5%;
-  height: 155px;
+  /*padding: 3%;*/
+  /*height: 155px;*/
+  height: 2%;
+  line-height: 5%;
   padding-top: 1.1em;
-  /*padding-right: 5em;*/
+  padding-top: 1%;
+
+  padding-right: 5em;
   background-color: #edfefd;
   background-color: #A7ABAC;
 }
 
 .grid-dets {
   flex: 1;
-  /*padding: 1%;*/
+  padding: 5%;
 
 }
 
 .grid-job-title {
-  /*font-size: 2.9em;*/
+  font-size: 2.9em;
   font-size: 4vw;
   color: #c4cdce;
   color: white;
   text-align: left;
-  /*position: absolute;*/
+  position: absolute;
 }
 
 .grid-name {
-  /*font-size: 3.7em;*/
+  font-size: 3.7em;
   font-size: 5vw;
   text-shadow: -1px -1px #72716d;
   line-height: 1.7em;
@@ -215,7 +223,7 @@ nav a {
 }*/
 
 .flex-container {
-  /*-webkit- for android, chrome, iOS, safari*/
+  -webkit- for android, chrome, iOS, safari
   display: -webkit-flex;
 	display: flex;
   -webkit-align-items: right;

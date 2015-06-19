@@ -1,5 +1,22 @@
+/*this works, and the lessontree screenshot is fixed again*/
+.hero-pic {
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-image: url("http://i1297.photobucket.com/albums/ag36/elishalahansen/working_zpsunwtfcf7.jpg") no-repeat 50% 50% fixed;
+    background-size: cover;
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    max-height: 100%;
+    max-width:100%;
+    min-width: 100%;
+    min-height: 100%;
+    background: absolute;
+}
 
-//this causes another image behind it, other times no imgage is behind it, but it doesn't cover the background. it also breaks the lessontree screen shot
+
+/*this causes another image behind it, other times no imgage is behind it, but it doesn't cover the background. it also breaks the lessontree screen shot*/
 /*.bkgnd-img {
     -webkit-background-size: cover;
     -moz-background-size: cover;
@@ -14,9 +31,9 @@
     min-width: 100%;
     min-height: 100%;*/
     /*margin-top: 4.2em;*/
-}
+/*}*/
 
-//this actually worked on phone but still not perfect
+/*this actually worked on phone but still not perfect*/
 /*@media only screen and (max-device-width: 480px) {
  td[class="headercell"] {
    background-image: url(images/working-325.JPG);
@@ -29,23 +46,20 @@
  }*/
 
 
-
-
-//this works, and the lessontree screenshot is fixed again
-.my-img {
-    -webkit-background-size: cover;
+/*.my-img {*/
+    /*-webkit-background-size: cover;
     -moz-background-size: cover;
-    -o-background-size: cover;
-    background-image: url("http://i1297.photobucket.com/albums/ag36/elishalahansen/working_zpsunwtfcf7.jpg") no-repeat 50% 50% fixed;
-    background-size: cover;
-    background-position: center center;
-    background-repeat: no-repeat;
-    background-attachment: fixed;
-    max-height: 100%;
-    max-width:100%;
-    min-width: 100%;
-    min-height: 100%;
-}
+    -o-background-size: cover;*/
+    /*background-image: url("http://i1297.photobucket.com/albums/ag36/elishalahansen/working_zpsunwtfcf7.jpg") no-repeat 50% 50% fixed;*/
+    /*background-size: contain;
+    border: 2px solid blue;*/
+    /*background-position: center center;*/
+    /*background-repeat: no-repeat;*/
+    /*background-attachment: fixed;*/
+    /*height: 100%;*/
+
+/*}*/
+
 
 /*.lessonTree-screenshot {
    position: absolute;
@@ -76,5 +90,6 @@
   margin-top: 6em;
   margin-left: 2%;
   margin-bottom: 9em;
+  margin-right: auto;
   box-shadow: 1px 1px 2px 2px #72716f;
 }
