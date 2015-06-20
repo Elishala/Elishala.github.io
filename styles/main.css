@@ -172,11 +172,10 @@ nav a {
   text-align: left;
   /*padding: 3%;*/
   /*height: 155px;*/
-  height: 2%;
+  /*height: 2%;*/
   line-height: 5%;
-  padding-top: 1.1em;
+  /*padding-top: 1.1em;*/
   padding-top: 1%;
-
   padding-right: 5em;
   background-color: #edfefd;
   background-color: #A7ABAC;
@@ -184,7 +183,7 @@ nav a {
 
 .grid-dets {
   flex: 1;
-  padding: 5%;
+  padding: 3%;
 
 }
 
@@ -303,7 +302,7 @@ nav a {
   padding: 10px 15px;
   /*padding-right: 2.1em;*/
   margin-top: 3.9em;
-  padding: 4%;
+  padding: 7%;
   font-weight: bolder;
 }
 
