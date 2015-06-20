@@ -302,9 +302,15 @@ nav a {
   font-family: 'Lora', serif;
   font-family: 'Raleway', sans-serif;
   color: #A7ABAC;
+  color: #72716f;
   line-height: 1.4em;
   font-size: 19px;
   margin-top: -5.3em;
+}
+
+.project-dets:hover {
+  color: #595856;
+
 }
 
 .about-title {
@@ -319,6 +325,7 @@ nav a {
   padding: 7%;
   font-weight: bolder;
 }
+
 
 
 .cities {
