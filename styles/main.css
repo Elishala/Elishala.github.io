@@ -1,22 +1,19 @@
-@media all and (max-width: 700px) {
-  .hero-pic {
-    display: none;
+@media only screen and (min-width: 321px) {
+  /*larger mobile styles (wider than 320 pixels)*/
 }
-.grid-hero {
-  padding-top: 3%;
-}
-
+@media only screen and (min-width: 600px) {
+  /*tablet styles (wider than 600px)*/
 }
 
-
-
-/*@media only screen and (min-width: 0px) and (max-width: 640px) {*/
-/*@media all and (min-width: 0px) and (max-width: 1640px) {*/
+@media only screen and (min-width: 1024px) {
+  /*large laptop styles (wider than 1024px)*/
+}
+@media only screen and (min-width: 1140px) {
+  /*desktop styles (wider than 1140 px)*/
+}
 
   nav .auto-text-box .element .typed-cursor{
     -webkit-flex-flow: column;
-      /*background-image: url("images/background-photo-mobile-devices.jpg");*/
-      /*background-image: url("http://i1297.photobucket.com/albums/ag36/elishalahansen/working_zpsunwtfcf7.jpg");*/
 
   }
 }
@@ -131,8 +128,7 @@ nav a {
   font-family: 'Raleway', sans-serif;
   font-size: 1.5em;
   color: white;
-  /*color: green;*/
-    color: #B1D25D;
+    /*color: #B1D25D;*/
   line-height: 1.4em;
   letter-spacing: 0.2em;
   max-width: 75%;
@@ -152,8 +148,7 @@ nav a {
   -moz-animation: blink 0.7s infinite;
   animation: blink 1.4s 1.4s infinite;
   color: white;
-    color: #B1D25D;
-  /*color: green;*/
+    /*color: #B1D25D;*/
   font-size: 1.5em;
 
 }
