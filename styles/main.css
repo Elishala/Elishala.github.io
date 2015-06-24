@@ -5,6 +5,12 @@
   /*tablet styles (wider than 600px)*/
 }
 
+@media only screen and (max-width: 700px) {
+  .hero-pic {
+    display: none;
+  }
+}
+
 @media only screen and (min-width: 1024px) {
   /*large laptop styles (wider than 1024px)*/
 }
