@@ -1,35 +1,5 @@
-@media only screen and (min-width: 321px) {
-  /*larger mobile styles (wider than 320 pixels)*/
-}
-@media only screen and (min-width: 600px) {
-  /*tablet styles (wider than 600px)*/
-
-}
-
-@media only screen and (max-width: 700px) {
-  .hero-pic {
-    display: none;
-  }
-  .grid-hero {
-    position: relative;
-  }
-  .nav {
-    position: fixed;
-    bottom: 3%;
-  }
-}
-
-
-@media only screen and (min-width: 1024px) {
-  /*large laptop styles (wider than 1024px)*/
-}
-@media only screen and (min-width: 1140px) {
-  /*desktop styles (wider than 1140 px)*/
-}
-
   nav .auto-text-box .element .typed-cursor{
     -webkit-flex-flow: column;
-
   }
 }
 
@@ -37,6 +7,11 @@
   box-sizing: border-box;
 }
 
+.clearfix:after {
+	content: "";
+	clear: both;
+	display: block;
+}
 
 nav {
   display: -webkit-box;
@@ -132,7 +107,7 @@ nav a {
   padding: 170px 29%;
   /*padding: 10em 3em 3em 27em;*/
 }
-/*using display/flex throw cursor further down the screen*/
+/*using display/flex throws cursor further down the screen*/
 .element {
   /*display: flex;
   flex: 0 1 auto;*/
@@ -249,10 +224,12 @@ nav a {
   -webkit- for android, chrome, iOS, safari
   display: -webkit-flex;
 	display: flex;
-  -webkit-align-items: right;
+  -webkit-flex-direction: column;
+  flex-direction: column;
+  /*-webkit-align-items: right;
   align-items: right;
   -webkit-justify-content: right;
-  justify-content: right;
+  justify-content: right;*/
   -webkit-flex-flow: column;
   flex-wrap: column;
   -webkit-align-content: right;
@@ -293,14 +270,14 @@ nav a {
 .project-container {
   position: relative;
   width: 100%;
-  /*margin: auto;*/
-  margin-bottom: 12em;
+  margin: auto;
+  margin-bottom: 10%;
 }
 
 .project-title {
   font-family: 'Raleway', sans-serif;
   line-height: 2.4em;
-  margin-top: 12em;
+  margin-top: 5%;
   margin-left: 0%;
 }
 
@@ -314,14 +291,22 @@ nav a {
   color: #72716f;
   line-height: 1.4em;
   font-size: 19px;
-  margin-top: -5.3em;
+  /*this margin top is what i think is causing safari to look the way it has*/
+  /*margin-top: -5.3em;*/
+  margin-top: 8%;
+
 }
 
 .project-dets:hover {
   color: #595856;
 
 }
-
+.project-bio {
+ margin-bottom: 3%;
+}
+.project-bio-2 {
+ margin-bottom: 3%;
+}
 .about-title {
   font-family: 'Raleway', sans-serif;
   color: #72716f;
@@ -329,8 +314,8 @@ nav a {
   font-size: 2.9em;
   text-align: left;
   /*padding: 10px 15px;*/
-  margin-top: 2%;
-  padding: 4% 7%;
+  margin-top: 11%;
+  padding: 4% 9%;
   /*padding-right: 2.1em;*/
   font-weight: bolder;
 }
@@ -363,6 +348,15 @@ nav a {
 }
 
 .to-sites:hover {
+  color: #A7ABAC;
+}
+
+.to-sites-2 {
+  color: #B1D25D;
+  text-decoration: none;
+}
+
+.to-sites-2:hover {
   color: #A7ABAC;
 }
 /*footer {

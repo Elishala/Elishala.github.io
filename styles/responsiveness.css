@@ -1,0 +1,91 @@
+@media screen and (min-width: 768px) {
+	/* window >= 768 pixels wide or larger*/
+  max-width: 1024px;
+}
+
+@media screen and (max-width: 768px) {
+	/* window <= 768 pixels wide or smaller*/
+  .hero-pic {
+    display: none;
+  }
+  .grid-hero {
+    position: relative;
+  }
+  .nav {
+    position: fixed;
+    bottom: 3%;
+  }
+  .flex-container {
+    /*width: 100%; this broke the hero sec*/
+    display: -webkit-flex;
+    display: flex;
+  	margin: auto;
+    flex-direction: column;
+  }
+  .project-container {
+    display: -webkit-flex;
+    display: flex;
+    margin: auto;
+    flex-direction: column;
+  }
+  .project-title {
+   margin-top: 43%;
+   text-align: center;
+   width: 100%;
+   display: -webkit-flex;
+   display: flex;
+   margin: auto;
+   flex-direction: column;
+   }
+  .vimeoVideo-screenshot {
+    position: relative;
+    display: -webkit-flex;
+    display: flex;
+    margin: auto;
+    flex-direction: column;
+    width: 75%;
+    margin-top: 29%;
+
+  }
+  .project-dets {
+    display: -webkit-flex;
+    display: flex;
+    margin: auto;
+    flex-direction: column;
+    width: 100%;
+    padding: 5%;
+  }
+  .ourWords-screenshot {
+    position: relative;
+    display: -webkit-flex;
+    display: flex;
+    margin: auto;
+    flex-direction: column;
+    width: 75%;
+    margin-top: 7%;
+
+  }
+  .project-bio {
+    display: -webkit-flex;
+    display: flex;
+    margin: auto;
+    flex-direction: column;
+    width: 75%;
+  }
+  .to-sites {
+    text-align: center;
+    margin-top: 1%
+  }
+  .project-bio-2 {
+    display: -webkit-flex;
+    display: flex;
+    margin: auto;
+    flex-direction: column;
+    width: 75%;
+    margin-bottom: 22%;
+  }
+  .to-sites-2 {
+    text-align: center;
+    margin-top: -21%
+  }
+  }
