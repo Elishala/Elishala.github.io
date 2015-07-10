@@ -88,4 +88,22 @@
     text-align: center;
     margin-top: -21%
   }
+  .NCMA-pic {
+    position: relative;
+    display: -webkit-flex;
+    display: flex;
+    margin: auto;
+    flex-direction: column;
+    width: 75%;
+    margin-top: 7%;
+  }
+  .p-space {
+    display: -webkit-flex;
+    display: flex;
+    margin: auto;
+    flex-direction: column;
+    width: 75%;
+    margin-top: 5%;
+    margin-bottom: 22%;
+  }
   }
