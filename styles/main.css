@@ -1,7 +1,6 @@
   nav .auto-text-box .element .typed-cursor{
     -webkit-flex-flow: column;
   }
-}
 
 *, *:before, *:after {
   box-sizing: border-box;
@@ -94,9 +93,9 @@ nav a {
   position: absolute;
   text-align: center;
   z-index: 4;
-  padding-top: 1%;
-  padding-left: 1%;
-  padding: 170px 29%;
+  /*padding-top: 1%;*/
+  /*padding-left: 1%;*/
+  padding: 15% 29%;
 }
 .element {
   position: relative;
@@ -107,9 +106,12 @@ nav a {
   color: white;
   line-height: 1.4em;
   letter-spacing: 0.2em;
-  max-width: 75%;
-  min-height: 15em;
+  max-width: 100%;
+  min-width: 100%;
+  /*min-height: 15em;*/
+  min-height: 20%;
   perspective: 1000px;
+  /*if this margin changes to a %, it breaks*/
   margin: 1em 1em;
   transform: perspective(25em) rotateX(-30deg);
 
@@ -147,15 +149,15 @@ nav a {
   font-family: 'Raleway', sans-serif;
   text-align: left;
   line-height: 5%;
-  padding-top: 1%;
+  padding-top: 3%;
   padding-right: 5%;
   background-color: #edfefd;
   background-color: #A7ABAC;
 }
-
+/*3% padding fixes ff but breaks chrome*/
 .grid-dets {
   flex: 1;
-  padding: 3%;
+  padding: 1%;
 }
 
 .grid-job-title {
@@ -185,10 +187,10 @@ nav a {
 	display: flex;
   -webkit-flex-direction: column;
   flex-direction: column;
-  /*-webkit-align-items: right;
+  -webkit-align-items: right;
   align-items: right;
   -webkit-justify-content: right;
-  justify-content: right;*/
+  justify-content: right;
   -webkit-flex-flow: column;
   flex-wrap: column;
   -webkit-align-content: right;
@@ -219,7 +221,7 @@ nav a {
   font-size: 2.9em;
   text-align: left;
   margin-top: 2%;
-  padding: 4%;
+  padding:0 4%;
   font-weight: bolder;
 }
 
@@ -228,6 +230,7 @@ nav a {
   width: 100%;
   margin: auto;
   margin-bottom: 10%;
+  /*consider removing this mb 7.11*/
 }
 
 .project-title {
@@ -271,10 +274,8 @@ nav a {
   text-shadow: -1px -1px #B1D25D;
   font-size: 2.9em;
   text-align: left;
-  /*padding: 10px 15px;*/
-  margin-top: 11%;
-  padding: 4% 9%;
-  /*padding-right: 2.1em;*/
+  margin-top: 15%;
+  padding: 0 9%;
   font-weight: bolder;
 }
 
@@ -290,7 +291,7 @@ nav a {
   color: #A7ABAC;
   line-height: 1.4em;
   font-size: 19px;
-  margin-top: 8%;
+  /*margin-top: 8%;*/
 }
 
 .p-space:hover {

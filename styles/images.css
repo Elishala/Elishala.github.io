@@ -23,7 +23,7 @@
 .vimeoVideo-screenshot {
   position: absolute;
   width: 35%;
-  /*margin-top: 9em;*/
+  /*the mt throws img off in safari, but w/o it it's thrown off in chrome & ff*/
   margin-top: 10%;
   margin-left: 4%;
   margin-bottom: 9em;
@@ -31,11 +31,11 @@
 }
 
 .ourWords-screenshot {
-  position: absolute;
+  /*position: absolute;*/
   width: 35%;
   margin-top: 10%;
   margin-left: 4%;
-  margin-bottom: 9em;
+  margin-bottom: -37%;
   box-shadow: 1px 1px 2px 2px #72716f;
 
 }
@@ -44,9 +44,9 @@
 .NCMA-pic {
   position: absolute;
   width: 25%;
-  margin-top: 6em;
+  /*margin-top: 10%;*/
   margin-left: 4%;
-  margin-bottom: 9em;
+  margin-bottom: 10%;
   margin-right: auto;
   box-shadow: 1px 1px 2px 2px #72716f;
 }
