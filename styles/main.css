@@ -326,6 +326,14 @@ nav a {
   to{opacity: .0;}
 }
 
+.le-foot {
+  font-family: 'Lora', serif;
+  font-family: 'Raleway', sans-serif;
+  color: #72716f;
+  font-size: 19px;
+  text-align: center;
+  padding: 5%;
+}
 
 /*
 class="icon-fontawesome-webfont"
