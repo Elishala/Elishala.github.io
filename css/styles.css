@@ -245,7 +245,9 @@ footer {
     font-size: 371%;
     color: #fafafa;
   }
-
+  p {
+    padding: 0 48px;
+  }
   .column {
     float: none;
     width: 100%;
