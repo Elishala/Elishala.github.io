@@ -197,6 +197,17 @@ nav li a:hover {
   margin: 20px;
 }
 
+#social ul li img:hover {
+  -webkit-transition: all 1s ease-in-out;
+  -moz-transition: all 1s ease-in-out;
+  -ms-transition: all 1s ease-in-out;
+  -o-transition: all 1s ease-in-out;
+  transition: all 1s ease-in-out;
+  transform: rotate(50deg);
+  transform-origin: top right;
+}
+
+
 footer {
   width: 100%;
   text-align: center;
@@ -205,6 +216,10 @@ footer {
 #copyright {
   color: inherit;
 }
+
+/*****************************************/
+          /*RESPONSIVENESS*/
+/*****************************************/
 
 @media only screen and (max-width: 901px) {
   .column {
@@ -229,7 +244,6 @@ footer {
   #hero h1 {
     font-size: 371%;
     color: #fafafa;
-
   }
 
   .column {
