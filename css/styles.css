@@ -102,10 +102,29 @@ nav li a:hover {
   font-size: 150%;
 }
 
+#hero span:hover {
+  background: #121D33;
+  color: #e5e5e5;
+}
+
 .city {
   color: #121D33;
 }
 
+.city:hover {
+    color: #e5e5e5;
+}
+
+a {
+  color: #121d33;
+  text-decoration: none;
+}
+a:hover {
+  /*navy blue color is mirage and from hero background pic #121d33*/
+  background: #121D33;
+  /*light-gray color e5e5e5*/
+  color: #e5e5e5;
+}
 
 #main-content {
   text-align: center;
