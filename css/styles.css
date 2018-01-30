@@ -270,7 +270,8 @@ box-shadow: 0px 1px 5px 0px rgba(131,135,151,0.71);
 }
 
 #social ul li img {
-  margin: 20px;
+  margin: 15px;
+  width: 25px;
 }
 
 #social ul li img:hover {
